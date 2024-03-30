@@ -30,6 +30,7 @@
                 color:white;
                 width: 100%;
                 font-size: 28px;
+                text-decoration: none
 
             }
             .footer-container {
@@ -53,28 +54,102 @@
                 left: 0;
                 top: 0;
                 padding-top: 80px;
+                padding-bottom: 20px;
                 bottom: 0;
                 display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+            .main-content-container {
+                background-color: lightgoldenrodyellow;
+                border:4px;
+                border-style: solid;
+                border-color:black;
+                width: 75%;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                
+            }
+            .main-content-font {
+                color: black;
+                font-size: xx-large;
+            
+            }
+            .bleak-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+
+            }
+            .seemed-lost-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .solution-container {
+                display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
             }
 
+
+
         </style>
     </head>
-    <body>
+    <body style="background-color: royalblue;">
         <div class="navbar-container">
             <img src="./img/digi_cougar.PNG" width="64px" height="64px" />
             <ul>
-                <li><a href="/index.html" class="navbar-font">Home</a></li>
-                <li><a href="news.html" class="navbar-font">News</a></li>
-                <li><a href="contact.html" class="navbar-font">Contact</a></li>
+                <li><a href="home.html" class="navbar-font">Home</a></li>
+                <li><a href="learn.html" class="navbar-font">Learn</a></li>
+                <li><a href="projects.html" class="navbar-font">Projects</a></li>
+                <li><a href="forum.html" class="navbar-font">Forums</a></li>
                 <li><a href="about.html" class="navbar-font">About</a></li>
+                <li><a href="contact.html" class="navbar-font">Contact</a></li>
             </ul>
         </div>
 
         <div class="background">
-            <p>About</p>              
+            <div class="main-content-container">
+                <div class="main-content-font">
+    
+                    <div class="bleak-container">
+                        <center><p><b>In a bleak and post-covid world...</b></br></br>
+                        CSUSM ACM and IEEE appear to be dead...</br>
+                        There are no Software Engineering tutors in the STEM center...</br>
+                        1st and 2nd years are stuck taking GE classes before they can take intro CS classes...</br>
+                        Some Juniors and Seniors still have not touched HTML or JavaScript...</br>
+                        Students are lost and disorganized...</p></center>
+                    </div>
+
+                    <div class="seemed-lost-container">
+                    <p>All seemed lost...</p>
+                    </div>
+                    
+
+                    <div class="solution-container">
+                        <center><p><b>BUT THERE WAS A NEW HOPE!</br>
+                        ENTER ELETRIC COUGARS!</b></p></center>
+                        <img src="./img/electric_cougar.webp" height="300px" width="300px"/>
+
+                        <center><p>Electric Cougars is a website by CSUSM students for anyone interested in CS/SE/CSC/EE topics.</br>
+                        Learn whatever, build whatever, whenever, all with your fellow Cougars.</br>
+                        Because the best way to learn is by doing.</br>
+                        Go it solo, or build up your own network of friends and peers to collaborate with.</br>
+                        ELECTRIC COUGARS' GOT YOUR BACK!</p></center>
+                        <img src="./img/cougar_pride.webp" height="300px" width="300px" />
+                    </div>  
+
+                </div>
+            </div>        
         </div>
 
         <div class="footer-container">
