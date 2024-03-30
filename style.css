@@ -6,17 +6,23 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    margin:auto;
 }
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     background-image: linear-gradient(royalblue, black);
+    margin:auto;
 }
 h1 {
     font-weight: 700;
 }
 em {
     font-style: italic;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 .navbar-container {
     background-color: black;
@@ -27,6 +33,7 @@ em {
     position:fixed;
     left:0;
     top:0;
+    margin:auto;
 }
 .navbar-font {
     color:white;
@@ -44,6 +51,7 @@ em {
     left: 0;
     position: absolute;
     overflow: hidden;
+    margin:auto;
 }
 .footer-text {
     color: grey;
@@ -83,6 +91,7 @@ em {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    margin: auto;
 }
 .main-content-font {
     color: black;
@@ -93,18 +102,21 @@ em {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .seemed-lost-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .solution-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .project-list-container {
     display: flex;
@@ -117,12 +129,28 @@ em {
     border:4px;
     border-style: solid;
     border-color:black;
+    margin: auto;
     
 }
 .project-list-font {
     color: black;
     font-size: xx-large;
 }
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-content-container {
+      width: 95%;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 767px) {
+    .main-content-container {
+      width: 100%;
+    }
+  }
+  
 
 /* Regular */
 @font-face {
