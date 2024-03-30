@@ -39,8 +39,10 @@ img {
     color:white;
     width: 100%;
     font-size: 28px;
-    text-decoration: none
-
+    text-decoration: none;
+}
+.navbar-font:hover {
+    color: greenyellow
 }
 .footer-container {
     display: flex;
@@ -56,6 +58,9 @@ img {
 .footer-text {
     color: grey;
     font-size: 14px;
+}
+.footer-text:hover {
+    color: greenyellow
 }
 .background {
     min-height: 100vh;
