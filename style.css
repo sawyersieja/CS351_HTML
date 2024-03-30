@@ -12,6 +12,12 @@ body {
     min-height: 100vh;
     background-image: linear-gradient(royalblue, black);
 }
+h1 {
+    font-weight: 700;
+}
+em {
+    font-style: italic;
+}
 .navbar-container {
     background-color: black;
     display: flex;
