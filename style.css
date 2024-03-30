@@ -56,7 +56,7 @@ body {
     justify-content: flex-start;
 }
 .title-container {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
     border:4px;
     border-style: solid;
     border-color:black;
@@ -66,7 +66,7 @@ body {
     font-size: xx-large;
 }
 .main-content-container {
-    background-color: lightgoldenrodyellow;
+    background-color: white;
     border:4px;
     border-style: solid;
     border-color:black;
