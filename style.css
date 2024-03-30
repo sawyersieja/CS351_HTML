@@ -9,6 +9,7 @@ ul {
 }
 body {
     min-height: 100vh;
+    background-image: linear-gradient(royalblue, black);
 }
 .navbar-container {
     background-color: black;
@@ -42,7 +43,6 @@ body {
     font-size: 14px;
 }
 .background {
-    background-color: royalblue;
     min-height: 100vh;
     width: 100%;
     left: 0;
@@ -106,7 +106,7 @@ body {
     align-items: center;
     background-color: white;
     padding: 5px;
-    
+    width:45%;
     border:4px;
     border-style: solid;
     border-color:black;
