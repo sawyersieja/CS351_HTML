@@ -24,6 +24,17 @@ img {
     max-width: 100%;
     height: auto;
 }
+table {
+  border:2px solid black;
+}
+th {
+  border:2px solid black;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+td {
+  border:1px solid black;
+}
 .navbar-container {
     background-color: black;
     display: flex;
@@ -68,7 +79,7 @@ img {
     left: 0;
     top: 0;
     padding-top: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     bottom: 0;
     display:flex;
     flex-direction: column;
@@ -84,6 +95,7 @@ img {
 .title-font {
     color:black;
     font-size: xx-large;
+    font-weight: 900;
 }
 .main-content-container {
     background-color: white;
@@ -142,6 +154,34 @@ img {
     font-size: xx-large;
 }
 
+.quest-category {
+
+}
+
+.quest-name {
+
+}
+
+.quest-description {
+
+}
+
+.quest-status {
+
+}
+.quest-contact {
+
+}
+.quest-more-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quest-more-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* For tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
     .main-content-container {
