@@ -14,6 +14,8 @@
                 margin:auto;
             }
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
     </head>
     <body>
         <div class="navbar-container">
@@ -36,7 +38,12 @@
             <div class="main-content-container" >
                 <div class="main-content-font">
                     <center>Under construction.<br>Coming soon!</center><br>
-                    <img src="assets/img/matrix_cougar.webp" width="300px" height="300px" style="border: 4px solid greenyellow; border-radius: 160px;" />
+                    <img id="matrixCougar" src="assets/img/matrix_cougar.webp" width="300px" height="300px" style="border: 4px solid greenyellow; border-radius: 160px;" />
+                    <script>
+                        $(document).ready(function(){
+                            $("#matrixCougar").addClass("rotated");
+                        });
+                    </script>
                 <br>
                 <center>:)</center>
                 </div>
