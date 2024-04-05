@@ -114,6 +114,12 @@ td {
     color: black;
     font-size: xx-large;
 }
+.quest-column-title {
+  background-color: lightblue;
+}
+.quest-row:hover {
+  background-color: lightgray;
+}
 .bleak-container {
     display: flex;
     flex-direction: column;

@@ -37,10 +37,18 @@
                     Quest Board
                 </div>
             </div>
-            <div class="main-content-container">
-                
+            <div class="main-content-container" style="flex-direction: column; margin-top: 2em;">
+                <div style="display: flex; flex-direction: row; justify-content: space-evenly; width: 100%; margin-bottom: 1em;">
+                    <button style="background-color: lightgreen; font-size: 1.5em; border:2px solid black;" onclick="alert('Feature under development.')">
+                        Add Quest
+                    </button>
+                    <div>
+                        <label style="font-weight:900; padding: 10px; font-size: 1.5em;" for="searchquests">Search:</label>
+                        <input style="font-size: 2em;" type="text" id="searchquests" name="searchquests">
+                    </div>
+                </div>
                 <table>
-                    <tr>
+                    <tr class="quest-column-title">
                         <th>Category</th>
                         <th>Name</th>
                         <th>Description</th>
@@ -49,16 +57,16 @@
                         <th>Contact</th>
                         <th>More info</th>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>.com</td>
                         <td>Electric Cougars</td>
                         <td>Cougar website by Cougars for Cougars.</td>
                         <td>24/7/365</td>
                         <td>Open</td>
-                        <td>@mikejones</td>
+                        <td>@johndoe</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>.com / CSC</td>
                         <td>CSUSM Cybersecurity Club Website</td>
                         <td>Continued development/maintence for club website.</td>
@@ -67,7 +75,7 @@
                         <td>@csusm_csc_exec_assistant</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>Event / CSC</td>
                         <td>Collegiate Cyber Defense Competition</td>
                         <td>Team of up to 8 students to represent CSUSM.</td>
@@ -76,7 +84,7 @@
                         <td>@csusm_csc_exec_assistant</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>E.C.</td>
                         <td>Intramural Basketball</td>
                         <td>Anyone wanna play basketball?</td>
@@ -85,7 +93,7 @@
                         <td>@michaeljordan</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>Event</td>
                         <td>Linux Expo Event</td>
                         <td>Looking for others who wanna hotel/rideshare share and save money.</td>
@@ -94,7 +102,7 @@
                         <td>@linus</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>Event</td>
                         <td>(URFC) Underground Robot Fight Club</td>
                         <td>Byter vs Decompiler @ the place @ the time.</td>
@@ -103,7 +111,7 @@
                         <td>@scrapmetaljoe</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>SE</td>
                         <td>Forty Fort</td>
                         <td>Looking for other devs to collaborate on a dwarven town management/surval game.</td>
@@ -112,7 +120,7 @@
                         <td>@sawyersieja</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>CS</td>
                         <td>ACM Event Ideas</td>
                         <td>Collecting event idea submissions. New club direction is focusing on education/entertainment/food to generate more student involvement.</td>
@@ -121,7 +129,7 @@
                         <td>@csusm_acm</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>CS</td>
                         <td>CS420 Study Group</td>
                         <td>Want to get higher grades? Meet at the Library, Room 404</td>
@@ -130,7 +138,7 @@
                         <td>@thesearejustjokespeople</td>
                         <td class="quest-more-info"><button>?</button></td>
                     </tr>
-                    <tr>
+                    <tr class="quest-row">
                         <td>SE</td>
                         <td>Cougar TDs</td>
                         <td>Do you like TDs? Everyone likes TDs! Looking to collaborate with other TD enthusiasts to build some Cougar TDs!</td>
@@ -145,7 +153,7 @@
         </div>
 
         <div class="footer-container">
-            <p class="footer-text">&#128062 Sawyer Sieja 2024 &#128062</p>
+            <p class="footer-text">&#128062 Sawyer Sieja 2024 </p>
         </div>
     </body>
 </html>
