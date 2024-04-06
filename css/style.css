@@ -118,6 +118,58 @@ td {
     color: black;
     font-size: xx-large;
 }
+.leaderboard-container {
+    background-color: white;
+    width:100%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+.leaderboard-title {
+  color:black;
+  font-size: 2em;
+  padding:0.2em;
+  border:0.2em solid black;
+  font-weight: 800;
+}
+
+.left-main-sponsor {
+  width:100%;
+  font-size: 2em;
+  font-weight: 800;
+  border:0.2em solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-main {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding:1em;
+  background-color: white;
+}
+.right-main {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:1em;
+  background-color: white;
+}
+.home-post-container {
+  width: 100%;
+  border-bottom: 0.1em solid black;
+  padding: 1em;
+}
+
+.home-post {
+
+}
+
+
 .quest-column-title {
   background-color: lightblue;
   width: 100%;
@@ -206,7 +258,7 @@ td {
 }
 
 .rotated {
-  animation: rotateAnimation 4s linear infinite;
+  animation: rotateAnimation 1s linear infinite;
 }
 
 .rotated:hover {
@@ -215,10 +267,10 @@ td {
 
 @keyframes rotateAnimation {
   from {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
 

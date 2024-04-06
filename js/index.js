@@ -2,3 +2,9 @@
 $(document).ready(function(){
     $("#matrixCougar").addClass("rotated");
 });
+
+$(document).ready(function(){
+    $("#matrixCougar").click(function() {
+        window.location.href = "/html/home.html";
+    });
+});
