@@ -7,12 +7,12 @@
         <link rel="icon" type="image/x-icon" href="/assets/img/digi_cougar.PNG">
         <link rel="stylesheet" href="/css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="/js/index.js" defer></script>
+        <script src="/js/home.js" defer></script>
 
     </head>
     <body>
         <div class="navbar-container">
-            <img src="../assets/img/digi_cougar.PNG" width="64px" height="64px" />
+            <img id="nav-cougar" src="../assets/img/digi_cougar.PNG" width="64px" height="64px" />
             <ul>
                 <li><a href="home.html" class="navbar-font">Home</a></li>
                 <li><a href="tukwuttalk.html" class="navbar-font">Tukwut Talk</a></li>
@@ -32,7 +32,39 @@
                 <div style="width: 100%; display: flex; flex-direction: row; justify-content: space-evenly;">
                     <div class="left-main">
                         <div class="leaderboard-container">
-                            <div class="leaderboard-title">Leaderboard</div>
+                            <div class="leaderboard-title">Upcoming events</div>
+                            <table>
+                                <tr class="quest-column-title">
+                                    <th>Event</th>
+                                    <th>Date</th>                            
+                                </tr>
+                                <tr class="quest-row">
+                                    <td>picoCTF</td>
+                                    <td>March 12th</td>                            
+                                </tr>
+                                <tr class="quest-row">
+                                    <td>Robotics workshop</td>
+                                    <td>March 27th</td>
+                                </tr><tr class="quest-row">
+                                    <td>Women's hackathon</td>
+                                    <td>March 28th</td>
+                                </tr><tr class="quest-row">
+                                    <td>Career fair</td>
+                                    <td>May 1st</td>
+                                </tr>
+                                </tr><tr class="quest-row">
+                                    <td>SM Cougars Meet & Greet</td>
+                                    <td>May 14th</td>
+                                </tr>
+                                </tr><tr class="quest-row">
+                                    <td>Cougar Treasure Hunt</td>
+                                    <td>May 20th</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="left-main-sponsor">Sponsor/Ad?<br><br></div>
+                        <div class="leaderboard-container">
+                            <div class="leaderboard-title">SMC Leaderboard</div>
                             <table>
                                 <tr class="quest-column-title">
                                     <th>Name</th>
@@ -43,67 +75,92 @@
                                     <td>1324</td>                            
                                 </tr>
                                 <tr class="quest-row">
-                                    <td>Joe</td>
+                                    <td>Jessica</td>
                                     <td>1194</td>
                                 </tr><tr class="quest-row">
-                                    <td>Jerry</td>
+                                    <td>Juanita</td>
                                     <td>1103</td>
                                 </tr><tr class="quest-row">
                                     <td>Jacob</td>
                                     <td>1072</td>
                                 </tr>
+                                </tr><tr class="quest-row">
+                                    <td>Joe</td>
+                                    <td>1024</td>
+                                </tr>
                             </table>
                         </div>
-                        <div class="left-main-sponsor">Sponsor<br><br></div>
                         <div class="leaderboard-container">
-                            <div class="leaderboard-title">Upcoming events</div>
+                            <div class="leaderboard-title">Helpful Cougars</div>
                             <table>
                                 <tr class="quest-column-title">
-                                    <th>Event</th>
-                                    <th>Date</th>                            
+                                    <th>Name</th>
+                                    <th>Rep</th>                            
                                 </tr>
                                 <tr class="quest-row">
-                                    <td>Event1</td>
-                                    <td>March 12th</td>                            
+                                    <td>Terry</td>
+                                    <td>57</td>                            
                                 </tr>
                                 <tr class="quest-row">
-                                    <td>Event2</td>
-                                    <td>March 27th</td>
+                                    <td>Trevor</td>
+                                    <td>42</td>
                                 </tr><tr class="quest-row">
-                                    <td>Event3</td>
-                                    <td>March 28th</td>
+                                    <td>Trisha</td>
+                                    <td>33</td>
                                 </tr><tr class="quest-row">
-                                    <td>Event4</td>
-                                    <td>May 1st</td>
+                                    <td>Treyvon</td>
+                                    <td>28</td>
+                                </tr>
+                                </tr><tr class="quest-row">
+                                    <td>Tay</td>
+                                    <td>13</td>
                                 </tr>
                             </table>
                         </div>
+                        
                     </div>
                     <div class="right-main">
                         <div class="home-post-container">
                             <div class="home-post">
-                                <h2>Title of post 3</h2>
+                                <h2>TL;DR</h2>
+                                <p>March 06, 2024, 12:30 PM by admin</p>
+                                <b>TL;DR:</b> CS Club + maybe something like a frat, but like, in a "<i>good</i>" way.
+                            </div>
+                        </div>
+                        <div class="home-post-container">    
+                            <div class="home-post">
+                                <h2>In a bleak and post-COVID world... </h2>
                                 <p>March 06, 2024, 1:09 AM by admin</p>
 
-                                CSUSM ACM and IEEE clubs appear to be dead...
-                                There are no Software Engineering tutors in the STEM center...
-                                1st and 2nd years are stuck taking GE classes before they can take intro CS classes...
-                                Some Juniors and Seniors still have not touched HTML or JavaScript...
-                                Students are isolated and disorganized...
-
+                                CSUSM ACM and IEEE clubs appear to be dead...<br>
+                                There are no Software Engineering tutors in the STEM center...<br>
+                                1st and 2nd years are stuck taking GE classes before they can take intro CS classes...<br>
+                                Some Juniors and Seniors still have not touched HTML or JavaScript...<br>
+                                Students are isolated, disorganized, and introverted...<br><br>
                                 All seemed lost...
                             </div>
                         </div>
                         <div class="home-post-container">
                             <div class="home-post">
-                                <h2>Title of post 2</h2>
+                                <h2>But there was a new hope!</h2>
+                                <p>March 05, 2024, 4:51 PM by admin</p>
+                                <img src="../assets/img/electric_cougar.webp" style="max-width: 250px; max-height: 250px; margin:auto" />
+                                <p><b>ENTER SM COUGARS!</b></p>
+                                
+                            </div>
+                        </div>
+                        <div class="home-post-container">
+                            <div class="home-post">
+                                <h2>By Cougars For Cougars</h2>
                                 <p>March 05, 2024, 3:49 PM by admin</p>
-                                Electric Cougars is a website by CSUSM students for anyone interested in Computer Science, Software Engineering, Cybersecurity, and Electrical Engineering topics.
+                                <img src="../assets/img/cougar_pride.webp" style="max-width: 250px; max-height: 250px; padding-bottom: 5px;" /><br>
+                                SM Cougars(open to different name...) is a website by CSUSM students for anyone interested in Computer Science, Software Engineering, Cybersecurity, and Electrical Engineering topics, or for any students who just want to hangout.<br>
+                                Learn, teach, build, whatever, whenever- all with your fellow cougars.<br>
+                                Because the best way to learn is by doing.<br>
+                                Go it solo, or build up your own network of friends and peers to collaborate with.<br><br>
+                                SM COUGARS' GOT YOUR BACK!<br><br>
+                                
 
-                                Learn whatever, build whatever, whenever, all with your fellow cougars.
-                                Because the best way to learn is by doing.
-                                Go it solo, or build up your own network of friends and peers to collaborate with.
-                                ELECTRIC COUGARS' GOT YOUR BACK!
                             </div>
                         </div>
                         <div class="home-post-container">

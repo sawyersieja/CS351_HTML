@@ -147,9 +147,10 @@ td {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding:1em;
   background-color: white;
+  height: auto;
 }
 .right-main {
   width: 70%;
@@ -247,7 +248,6 @@ td {
 }
 
 .login-button {
-  width: 40%;
   height: 8vh;
   font-size: 2em;
   font-weight: 900;

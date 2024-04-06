@@ -5,6 +5,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#matrixCougar").click(function() {
-        window.location.href = "/html/home.html";
+        window.location.href = "../html/home.html";
     });
 });
