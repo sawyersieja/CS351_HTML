@@ -24,7 +24,6 @@
                 <li><a href="tukwuttalk.html" class="navbar-font">Tukwut Talk</a></li>
                 <li><a href="quests.html" class="navbar-font">Quests</a></li>
                 <li><a href="learn.html" class="navbar-font">Learn</a></li>
-                <li><a href="about.html" class="navbar-font">About</a></li>
                 <li><a href="contact.html" class="navbar-font">Contact</a></li>
             </ul>
         </div>
@@ -37,10 +36,10 @@
             </div>
             <div class="main-content-container" style="flex-direction: column; margin-top: 2em;">
                 <div style="display: flex; flex-direction: row; justify-content: space-evenly; width: 100%; margin-bottom: 1em;">
-                    <button style="background-color: lightgreen; font-size: 1.5em; border:2px solid black;" onclick="alert('Feature under development.')">
+                    <button style="background-color: lightgreen; font-size: 1.5em; border:2px solid black;" onclick="alert('Feature in development.')">
                         Create Quest
                     </button>
-                    <button style="background-color: orangered; font-size: 1.5em; border:2px solid black;" onclick="alert('Feature under development.')">
+                    <button style="background-color: orangered; font-size: 1.5em; border:2px solid black;" onclick="alert('Feature in development.')">
                         Report Quest
                     </button>
                     <div>
@@ -50,106 +49,190 @@
                 </div>
                 <table>
                     <tr class="quest-column-title">
-                        <th>Category</th>
-                        <th>Name</th>
+                        <th>Reward</th>
+                        <th>Quest Name</th>
                         <th>Description</th>
-                        <th>Date/Time</th>
+                        <th>Category</th>
                         <th>Status</th>
-                        <th>Contact</th>
-                        <th>More info</th>
+                        <th>?</th>
                     </tr>
                     <tr class="quest-row">
-                        <td>.com</td>
-                        <td>Electric Cougars</td>
-                        <td>Cougar website by Cougars for Cougars.</td>
-                        <td>24/7/365</td>
+                        <td>1000 points</td>
+                        <td>Responsive design</td>
+                        <td>Make the site better designed for various screen sizes.</td>
+                        <td>SM Cougars</td>
                         <td>Open</td>
-                        <td>@johndoe</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td class="quest-more-info"><button class="quest-question-button" onclick="questQuestionButton()">?</button></td>
                     </tr>
                     <tr class="quest-row">
-                        <td>.com / CSC</td>
+                        <td>2000 points</td>
+                        <td>Tukwut Talk integration.</td>
+                        <td>Facillitate username/login and chat room experience.</td>
+                        <td>SM Cougars</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>250 points</td>
+                        <td>Quest Board Admin</td>
+                        <td>Maintain Quest Board and Quest submissions.</td>
+                        <td>SM Cougars</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>400 points</td>
+                        <td>Continued SMC site styling improvements.</td>
+                        <td>Various styling improvements.</td>
+                        <td>SM Cougars</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>500 points</td>
                         <td>CSUSM Cybersecurity Club Website</td>
                         <td>Continued development/maintence for club website.</td>
-                        <td>Tues/Thurs</td>
+                        <td>CyberSec</td>
                         <td>Open</td>
-                        <td>@csusm_csc_exec_assistant</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
                     </tr>
                     <tr class="quest-row">
-                        <td>Event / CSC</td>
+                        <td>250 points</td>
                         <td>Collegiate Cyber Defense Competition</td>
                         <td>Team of up to 8 students to represent CSUSM.</td>
-                        <td>February 20th</td>
-                        <td>Closed</td>
-                        <td>@csusm_csc_exec_assistant</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td>CyberSec</td>
+                        <td>Completed</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
                     </tr>
                     <tr class="quest-row">
-                        <td>E.C.</td>
+                        <td>50 points</td>
                         <td>Intramural Basketball</td>
-                        <td>Anyone wanna play basketball?</td>
-                        <td>Wednesdays @ 6pm</td>
-                        <td>Closed</td>
-                        <td>@michaeljordan</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td>Team of up to 10.</td>
+                        <td>Other</td>
+                        <td>Full</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
                     </tr>
                     <tr class="quest-row">
-                        <td>Event</td>
+                        <td>10 points</td>
                         <td>Linux Expo Event</td>
-                        <td>Looking for others who wanna hotel/rideshare share and save money.</td>
-                        <td>March 15th - March 17th</td>
-                        <td>Open</td>
-                        <td>@linus</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td>Hotel/rideshare and meetup.</td>
+                        <td>Other</td>
+                        <td>Completed</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
                     </tr>
                     <tr class="quest-row">
-                        <td>Event</td>
+                        <td>20 points</td>
                         <td>(URFC) Underground Robot Fight Club</td>
                         <td>Byter vs Decompiler @ the place @ the time.</td>
-                        <td>date/time</td>
+                        <td>Other</td>
                         <td>Closed</td>
-                        <td>@scrapmetaljoe</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
                     </tr>
                     <tr class="quest-row">
-                        <td>SE</td>
+                        <td>50 points</td>
                         <td>Forty Fort</td>
                         <td>Looking for other devs to collaborate on a dwarven town management/surval game.</td>
-                        <td>Any</td>
+                        <td>Software</td>
                         <td>Open</td>
-                        <td>@sawyersieja</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
                     </tr>
                     <tr class="quest-row">
-                        <td>CS</td>
+                        <td>75 points</td>
                         <td>ACM Event Ideas</td>
                         <td>Collecting event idea submissions. New club direction is focusing on education/entertainment/food to generate more student involvement.</td>
-                        <td>TBD</td>
+                        <td>CompSci</td>
                         <td>Open</td>
-                        <td>@csusm_acm</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
                     </tr>
                     <tr class="quest-row">
-                        <td>CS</td>
-                        <td>CS420 Study Group</td>
-                        <td>Want to get higher grades? Meet at the Library, Room 404</td>
-                        <td>Thursdays, 4:20pm</td>
-                        <td>Open</td>
-                        <td>@thesearejustjokespeople</td>
-                        <td class="quest-more-info"><button>?</button></td>
-                    </tr>
-                    <tr class="quest-row">
-                        <td>SE</td>
+                        <td>50 points</td>
                         <td>Cougar TDs</td>
                         <td>Do you like TDs? Everyone likes TDs! Looking to collaborate with other TD enthusiasts to build some Cougar TDs!</td>
-                        <td>Thursdays</td>
+                        <td>Software</td>
                         <td>Open</td>
-                        <td>@CougarTDs</td>
-                        <td class="quest-more-info"><button>?</button></td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>3000 points</td>
+                        <td>SMC President</td>
+                        <td>Executive leadership position to lead and shape future of the organization</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>1500 points</td>
+                        <td>SMC Treasurer</td>
+                        <td>Financial responsibility stuff</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>1000 points</td>
+                        <td>SMC Administrator</td>
+                        <td>Basically a babysitter for adults acting like children in Tukwut Talk and involvement in SMC decision making</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>250 points</td>
+                        <td>Refer a friend</td>
+                        <td>Every person you refer that makes an account gets you points</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>1000 points</td>
+                        <td>SMC media manager</td>
+                        <td>In charge of SMC social media and interaction</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>2000 points</td>
+                        <td>SMC Event Coordinator</td>
+                        <td>Plan and coordinate SMC virtual and in-person events.</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>500 points</td>
+                        <td>Early bird</td>
+                        <td>First 20 users to create a SMC account get 500 points</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>500 points</td>
+                        <td>SMC economy architect</td>
+                        <td>Balance out which tasks are worth how many points, and how to prevent balance issues or abuse.</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>100 points</td>
+                        <td>Pixel Artist</td>
+                        <td>100 points for each new SMC emoji or icon created.</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
+                    </tr>
+                    <tr class="quest-row">
+                        <td>500 points</td>
+                        <td>Quest Board Redesign</td>
+                        <td>Re-imagine and re-implement Quest Board with better structure and design.</td>
+                        <td>SMC</td>
+                        <td>Open</td>
+                        <td class="quest-more-info"><button class="quest-question-button">?</button></td>
                     </tr>
                 </table>
-
             </div>              
         </div>
 

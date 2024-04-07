@@ -166,11 +166,6 @@ td {
   padding: 1em;
 }
 
-.home-post {
-
-}
-
-
 .quest-column-title {
   background-color: lightblue;
   width: 100%;
@@ -218,24 +213,6 @@ td {
     font-size: xx-large;
 }
 
-.quest-category {
-
-}
-
-.quest-name {
-
-}
-
-.quest-description {
-
-}
-
-.quest-status {
-
-}
-.quest-contact {
-
-}
 .quest-more-info-container {
   display: flex;
   justify-content: center;
@@ -292,7 +269,7 @@ td {
 /* Regular */
 @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
   }
@@ -300,7 +277,7 @@ td {
   /* Bold */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
   }
@@ -308,7 +285,7 @@ td {
   /* Italic */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
   }
@@ -316,7 +293,7 @@ td {
   /* Bold Italic */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
   }
@@ -324,7 +301,7 @@ td {
   /* Thin */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
   }
@@ -332,7 +309,7 @@ td {
   /* Thin Italic */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
   }
@@ -340,7 +317,7 @@ td {
   /* Light */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
   }
@@ -348,7 +325,7 @@ td {
   /* Light Italic */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
   }
@@ -356,7 +333,7 @@ td {
   /* Medium */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
   }
@@ -364,7 +341,7 @@ td {
   /* Medium Italic */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
   }
@@ -372,7 +349,7 @@ td {
   /* Black */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-Black.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
   }
@@ -380,7 +357,7 @@ td {
   /* Black Italic */
   @font-face {
     font-family: 'Roboto';
-    src: url('assets/fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+    src: url('../assets/fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
   }
