@@ -287,6 +287,31 @@ td {
 
 .password-field:hover {
   box-shadow: 0px 6px 6px rgba(126, 255, 75, 0.812);
+}
+
+.create-quest-button {
+  background-color: lightgreen; 
+  font-size: 1.5em;
+  border:3px solid black;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.create-quest-button:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.report-quest-button {
+  background-color: orangered;
+  font-size: 1.5em;
+  border:3px solid black;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.report-quest-button:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
 
 .rotated {
   animation: rotateAnimation 1s linear infinite;
