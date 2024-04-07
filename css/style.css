@@ -75,7 +75,7 @@ td {
     font-size: 14px;
 }
 .footer-text:hover {
-    color: greenyellow
+    color: lightskyblue
 }
 .background {
     min-height: 100vh;
@@ -248,14 +248,45 @@ td {
 }
 
 .login-button {
-  height: 8vh;
+  height: 2em;
   font-size: 2em;
-  font-weight: 900;
+  font-weight: 700;
+  color:black;
   margin: 10px;
-  border:4px solid black;
+  border:2px solid steelblue;
   border-radius: 20px;
-  background-color: lightblue;
+  background-color: lightskyblue;
+  box-shadow: -4px 4px 6px rgba(135, 206, 250, 0.75);
 }
+
+.login-button:active {
+  transform: translate3d(-4px, 4px, 10px);
+}
+.login-button:hover {
+  box-shadow: -6px 6px 6px rgba(126, 255, 75, 0.812); 
+}
+.username-field {
+  box-shadow: -4px 4px 6px rgba(135, 206, 250, 0.75);
+  font-size: 2em;
+  width:50%;
+  text-align: center;
+  border:4px solid steelblue;
+  border-radius: 20px;
+}
+.username-field:hover {
+  box-shadow: 0px 6px 6px rgba(126, 255, 75, 0.812); 
+}
+.password-field {
+  box-shadow: -4px 4px 6px rgba(135, 206, 250, 0.75);
+  font-size: 2em;
+  width:50%;
+  text-align: center;
+  border:4px solid steelblue;
+  border-radius: 20px;
+}
+
+.password-field:hover {
+  box-shadow: 0px 6px 6px rgba(126, 255, 75, 0.812);
 
 .rotated {
   animation: rotateAnimation 1s linear infinite;
