@@ -256,17 +256,17 @@ td {
   border:2px solid steelblue;
   border-radius: 20px;
   background-color: lightskyblue;
-  box-shadow: -4px 4px 6px rgba(135, 206, 250, 0.75);
+  box-shadow: -3px 3px 3px rgba(135, 206, 250, 0.75);
 }
 
 .login-button:active {
   transform: translate3d(-4px, 4px, 10px);
 }
 .login-button:hover {
-  box-shadow: -6px 6px 6px rgba(126, 255, 75, 0.812); 
+  box-shadow: -4px 4px 4px rgba(126, 255, 75, 0.812); 
 }
 .username-field {
-  box-shadow: -4px 4px 6px rgba(135, 206, 250, 0.75);
+  box-shadow: 0px 4px 6px rgba(135, 206, 250, 0.75);
   font-size: 2em;
   width:50%;
   text-align: center;
@@ -277,7 +277,7 @@ td {
   box-shadow: 0px 6px 6px rgba(126, 255, 75, 0.812); 
 }
 .password-field {
-  box-shadow: -4px 4px 6px rgba(135, 206, 250, 0.75);
+  box-shadow: 0px 4px 6px rgba(135, 206, 250, 0.75);
   font-size: 2em;
   width:50%;
   text-align: center;
