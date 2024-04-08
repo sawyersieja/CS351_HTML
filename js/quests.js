@@ -3,18 +3,18 @@ $(document).ready(function(){
         window.location.href = "../html/home.html";
     });
 });
+//----------------------------------------------------------------------------------
 
 document.addEventListener("DOMContentLoaded", function() {
     const exclamationMark = document.getElementById("quest-exclamation-title");
-    let yPos = 0; //initial position
-    let yPosChange = 1; //initial direction (1 for down, -1 for up)
+    let yPos = 0;
+    let yPosChange = 1;
 
     function animate() {
-        //adjust the position by direction
+
         yPos += yPosChange * 0.075;
         exclamationMark.style.top = yPos + "px";
 
-        //change direction if the image has moved a certain distance
         if (yPos > 10) {
             yPosChange = -1;
         }
@@ -23,11 +23,10 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         requestAnimationFrame(animate);
     }
-
     requestAnimationFrame(animate);
 });
 
-
+//-------------------------------------------------------------------------------------
 
 
 

@@ -16,6 +16,8 @@ I still have calc2 hw too.
 mehhhhhh about 4ish hours if I'm lucky.
 */
 
+//10:38pm, it's HOT garbage! :)
+
 
 
 let username = "sawyersieja";
@@ -63,3 +65,6 @@ const userProfile = new UserProfile(
 );
 console.log(userProfile);
 
+//10:34pm    .__.
+//I'm counting the UserProfile constructor as a multi param function
+//and the console.log(userProfile) as a return value
