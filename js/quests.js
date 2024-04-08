@@ -4,6 +4,37 @@ $(document).ready(function(){
     });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const exclamationMark = document.getElementById("quest-exclamation-title");
+    let yPos = 0; //initial position
+    let yPosChange = 1; //initial direction (1 for down, -1 for up)
+
+    function animate() {
+        //adjust the position by direction
+        yPos += yPosChange * 0.075;
+        exclamationMark.style.top = yPos + "px";
+
+        //change direction if the image has moved a certain distance
+        if (yPos > 10) {
+            yPosChange = -1;
+        }
+        else if(yPos < 0) {
+            yPosChange = 1;
+        }
+        requestAnimationFrame(animate);
+    }
+
+    requestAnimationFrame(animate);
+});
+
+
+
+
+
+
+
+//! below not working atm
+
 document.querySelectorAll(".quest-question-button").forEach(function(button) {
     button.addEventListener('click', function() {
         if(this.style.backgroundColor === "rgb(65,105,225)") {
